@@ -3,9 +3,9 @@ from ftplib import FTP
 import os
 
 # remote server details
-HOSTNAME = "ec2-100-24-54-101.compute-1.amazonaws.com"
-USER = "Administrator"
-PASSWORD = "es63-BN7kf1p2TUsqhVN5PGVYJ9TZnZC"
+HOSTNAME = "#########"
+USER = "###########"
+PASSWORD = "##################"
 
 # server connection test
 with FTP(host=HOSTNAME) as ftp:
