@@ -24,7 +24,7 @@ def weather_details():
     # store api key in my system environment variables
     # api_key = os.environ.get('weather_api')
 
-    response = requests.get("http://api.openweathermap.org/data/2.5/weather?q="+city+"&APPID=f51a91fe4d20b204ba8619fe4b1415f3&units=metric&lang=en")
+    response = requests.get("http://api.openweathermap.org/data/2.5/weather?q="+city+"&APPID=##########&units=metric&lang=en")
      
     data = json.loads(response.text)
     if data['cod'] == 404:
