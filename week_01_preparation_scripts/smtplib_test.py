@@ -18,7 +18,7 @@ try:
     server = SMTP('smtp.gmail.com',587)
     server.ehlo()
     server.starttls()
-    server.login("adapalapavan5@gmail.com", "corkfzjffypnqoxy")
+    server.login("adapalapavan5@gmail.com", "#############")
     print("connected")
     server.sendmail("adapalapavan5@gmail.com", 'pavankumar.biw@gmail.com', text)
     server.quit()
