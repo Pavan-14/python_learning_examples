@@ -56,7 +56,7 @@ def get_LatLong(city):
 
 # create an API request object for openweathermap
 def call_weather_api(latitude,longitude):
-    API_key = "f51a91fe4d20b204ba8619fe4b1415f3"
+    API_key = "########################"
     try:
         response = requests.get(f"https://api.openweathermap.org/data/2.5/weather?lat={latitude}&lon={longitude}&appid={API_key}&units=metric&lang=en")
         data = json.loads(response.text)
