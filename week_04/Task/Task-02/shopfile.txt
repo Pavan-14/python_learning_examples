@@ -1,0 +1,8 @@
+Order Number 123 and the Customer name is John Doe and Items purchaged laptop 1, battery 1, iphone14 2
+Order Number 456 and the Customer name is Ram and Items purchaged laptop 1, iphone14 1
+Order Number 789 and the Customer name is Sam and Items purchaged laptop 1, battery 1, iphone10 5
+Order Number 012 and the Customer name is Juli and Items purchaged laptop 1, iphone14 2
+Order Number 156 and the Customer name is Robert and Items purchaged laptop 1, shoes 2, iphone14 2
+Order Number 256 and the Customer name is Gopi and Items purchaged bag 1
+Order Number 147 and the Customer name is Lella and Items purchaged Xbox 2, iphone14 2
+Order Number 684 and the Customer name is Gopika and Items purchaged iphone12 2

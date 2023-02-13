@@ -1,0 +1,32 @@
+Goal: Create a Timer Countdown application. The application has a GUI that allows the user to enter a time value, start and stop the countdown timer.
+
+Modules required:
+    1. tkinter
+    2. time 
+
+Description:
+============ 
+    > created a class "TimeCountdown" with basic constructor.
+    > TimeCountdown class, which is the main class that creates the GUI of the application and implements the functionalities of the countdown timer.
+    
+    Instance Variables:
+    ====================
+    > time_value: used to store the "time" entered in entry widget.
+    > time_entry: user will enter the time.
+    > start_button: used to start the timer. it invokes 'start(self)' method.
+    > stop_button: used to stop the timer and reset the timer to 00:00:00
+    > timer_label: Shows the remaning time.
+
+    class Methods:
+    ==============
+    >   start method: This method starts the countdown timer. It first retrieves the time value entered by the user and converts it into seconds. 
+        Then, it starts a loop that decrements the time value by one second and updates the timer label until the time reaches zero. 
+        If the stop button is not pressed, the method displays a "Time's Up" message using the messagebox.showinfo() method from the tkinter library.
+
+    >   stop method: This method stops the countdown timer and resets the timer label to its initial value.
+    
+    class object:
+    =============
+    The code creates an instance of the TimeCountdown class at the end, which starts the application.
+
+

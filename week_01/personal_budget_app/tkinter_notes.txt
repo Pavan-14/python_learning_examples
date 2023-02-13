@@ -1,0 +1,16 @@
+# add calander to your application
+
+1. import tkcalendar
+pip install tkcalendar
+
+2. create calender instance
+cale = Calendar(display, selectmode="day", date_pattern="dd-mm-y",year=2023, month=1, day=27)
+
+3. create a button with command
+# add a button to Today date
+date_button = Button(text="Today date", command=grab_date)
+date_button.place(x=10,y=330)
+
+4. create a function
+def grab_date():
+    return cale.get_date()
